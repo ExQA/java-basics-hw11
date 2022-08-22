@@ -9,9 +9,6 @@ public class Lambda {
      * @return lambda expression.
      */
     public static BiFunction<Double, Double, Double> getMax() {
-        //  replace null with lambda expression
-
-//      return (Double a, Double b) -> Math.max(a, b);
         return (a, b) -> Math.max(a, b);
     }
 
@@ -21,9 +18,6 @@ public class Lambda {
      * @return lambda expression.
      */
     public static Function<Double, Double> getSqrt() {
-        //  replace null with method reference
-//      return (Double d) -> Math.sqrt(d);
-//      return (d) -> Math.sqrt(d);
         return d -> Math.sqrt(d);
     }
 }

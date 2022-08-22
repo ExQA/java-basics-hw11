@@ -27,7 +27,6 @@ public class LambdaTest {
                 {25.0, 5.0},
                 {-1.0, NaN},
                 {POSITIVE_INFINITY, POSITIVE_INFINITY},
-                // add 2 more test data here
                 {49.0, 7.0},
                 {225.0, 15.0}
         };
